@@ -1,0 +1,310 @@
+:root {
+    --primary-font: 'Bitter', serif;
+    --flavor-font: 'Handjet', cursive;
+    --primary-color: lightgray;
+    /* --secondary-color: rgb(153, 28, 28); */
+    --secondary-color: rgb(255, 96, 96);
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: linear-gradient(gray, black);
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: var(--flavor-font);
+    /* color: rgb(90, 90, 90); */
+    color: white;
+    font-size: 48px;
+    margin-left: 20px;
+}
+
+.navPlacement {
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* flex-direction: row; */
+    /* font-family: var(--primary-color); */
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navElements {
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+.hero {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/Background_Abstract.jpg);
+}
+
+.mainStyling {
+    margin: 20px 20px 0px 20px;
+}
+
+main {
+    width: 100%;
+    background-color: black;
+}
+
+.avatarPosition {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 600px;
+    height: 550px;
+    scale: 0.75;
+    background-image: url(../images/Cat_Feline_Kitten.jpg);
+}
+
+h2 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 36px;
+    margin: 20px;
+}
+
+p {
+    font-family: var(--primary-font);
+    height: 70px;
+    color: var(--secondary-color);
+    font-size: 28px;
+}
+
+h3 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 36px;
+    margin: 20px;
+}
+
+.projectsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    /* margin-right: 50%; */
+    gap: 20px;
+}
+
+.project-card-lg {
+    position: relative;
+    border: 10px solid var(--primary-color);
+}
+
+.cardText1 {
+    position: absolute;
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 36px;
+    margin: 20px;
+    font-weight: bolder;
+    top: 40%;
+    left: 38%;
+}
+
+.code-refactor {
+    min-width: 1220px;
+    height: 500px;
+    /* scale: 1.5; */
+    background-image: url(../images/Glass_Window_Cracks.jpg);
+    background-size: cover;
+    margin: 0px 200px 0px 200px;
+}
+
+.project-card-sm {
+    position: relative;
+    min-width: 600px;
+    height: 250px;
+    border: 10px solid var(--primary-color);
+}
+
+.cardText2 {
+    position: absolute;
+    font-family: var(--primary-font);
+    color: black;
+    font-size: 36px;
+    margin: 20px;
+    font-weight: bolder;
+    top: 33%;
+    left: 25%;
+}
+
+.project2 {
+    margin-left: 50px;
+    background-size: cover;
+    background-image: url(../images/Color_Triangle.png);
+}
+
+.cardText3 {
+    position: absolute;
+    font-family: var(--primary-font);
+    color: white;
+    font-size: 36px;
+    margin: 20px;
+    font-weight: bolder;
+    top: 33%;
+    left: 23%;
+}
+
+.project3 {
+    margin-right: 50px;
+    background-size: cover;
+    background-image: url(../images/Piranhas.jpg);
+}
+
+.cardText4 {
+    position: absolute;
+    font-family: var(--primary-font);
+    color: darkgray;
+    font-size: 36px;
+    margin: 20px;
+    font-weight: bolder;
+    top: 33%;
+    left: 27%;
+}
+
+.project4 {
+    margin-left: 50px;
+    background-size: cover;
+    background-image: url(../images/Technology_Computer.jpg);
+}
+
+.cardText5 {
+    position: absolute;
+    font-family: var(--primary-font);
+    color: rgb(255, 102, 0);
+    font-size: 36px;
+    margin: 20px;
+    font-weight: bolder;
+    top: 33%;
+    left: 22%; /* left: 24%; */
+}
+
+.project5 {
+    margin-right: 50px;
+    background-size: cover;
+    /* background-image: url(../images/YouTube_Laptop_Notebook.jpg); */
+    background-image: url(../images/Filmstrip_YouTube_Icon.jpg);
+}
+
+/* margin-left: calc(100% * (1/4) - 10px - 1px); */
+
+.project-card-lg:hover {
+    /* color: #FF00FF; */
+    /* color: #ff0000; */
+    scale: 1.05;
+    /* box-shadow: 0 0 5px 0 var(--primary-color),
+        0 0 10px 1.25px var(--primary-color),
+        0 0 15px 2.5px var(--primary-color),
+        0 0 20px 3.75 var(--primary-color); */
+}
+
+.project-card-sm:hover {
+    /* color: #FF00FF; */
+    /* color: #ff0000; */
+    scale: 1.05;
+    /* box-shadow: 0 0 5px 0 var(--primary-color),
+        0 0 10px 1.25px var(--primary-color),
+        0 0 15px 2.5px var(--primary-color),
+        0 0 20px 3.75 var(--primary-color); */
+}
+
+/* .project-card-lg:hover {
+    color: #ff0000;
+} */
+
+h4 {
+    font-family: var(--primary-font);
+    color: var(--primary-color);
+    font-size: 36px;
+    margin: 20px;
+}
+
+.contactPlacement {
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    margin-right: 20px;
+    justify-content: space-evenly;
+}
+
+.contactLinks {
+    padding: 20px;
+}
+
+.phone {
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+
+footer {
+    font-family: var(--primary-font);
+    font-size: 24px;
+    color: var(--primary-color);
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background: linear-gradient(black, gray);
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media screen and (max-width: 1360px) { /* 992px */ /* 768px */ /* 576px */
+    .project-card-lg {
+        min-width: 600px;
+        height: 250px;
+    }
+    .cardText1 {
+        top: 31%;
+        left: 26%;
+    }
+    .project2 {
+        margin-left: 0px;
+    }
+    .project3 {
+        margin-right: 0px;
+    }
+    .project4 {
+        margin-left: 0px;
+    }
+    .project5 {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 945px) {
+    .contactPlacement {
+        font-size: 20px;
+        justify-content: space-evenly;
+    }
+    .phone {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 963px) {
+    p {
+        font-size: 20px;
+    }
+}
